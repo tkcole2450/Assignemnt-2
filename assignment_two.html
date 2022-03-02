@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment Two</title>
+	<style>
+		h1{
+			font-family: Montserrat;
+			color: #000000;
+		}
+		.box{
+			background-color:#f96332;
+			border: solid #f96332;
+			border-radius: 0.625rem;
+
+		}
+		.responsive {
+			width: 100%;
+			height: auto: ;
+			padding-bottom: 0.625rem;
+		}
+		@media (min-width: 60.065rem) {
+			p {font-size: 2.25rem; text-align:left; }
+			h1 {font-size: 6rem;}
+			.box {width: 19.25rem; height: 6.125rem; font-size: 2.25rem;}
+
+		}
+		@media (max-width: 60rem) and (min-width: 48rem) {
+			p {font-size: 1.125rem; }
+			h1{font-size: 2.5rem; }
+			.box {width: 9.2894rem; height: 3rem; font-size: 1.125rem; }
+
+		}
+		@media (min-width: 47.9375 ) {
+			p {font-size: 1rem;}
+			h1 {font-size: 1.75rem;}
+			.box {width:  9.25rem; height: 3rem; font-size: 1rem;}
+		}
+	
+</style>
+</head>
+<body>
+	<h1>Arctic sea ice hits second-lowest level on record<h1>
+	<picture>
+		<img src= "polarbear.png" alt="Polar Bear" class="responsive">
+	</picture>
+	<div class = "Main Text">
+		<p style="font-weight: lighter; ">In 2021, Arctic sea ice shrank to its second-lowest extent in more than 40 years of satellite measurements. On 15 September, ice covered just 3.74 million square kilometres of Arctic waters at its annual summer minimum. In only one other year — 2012 — has the annual minimum Arctic sea-ice cover dropped below 4 million square kilometres </p>
+	</div>
+	<div class= "box">
+		<p style="font-weight: bold; color: #ffffff; text-align:center; ">
+			Read More </p>
+	</div>
+
+</body>
+</html>
